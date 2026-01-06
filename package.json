@@ -1,0 +1,20 @@
+{
+  "name": "mstwssts.github.io",
+  "version": "1.0.0",
+  "description": "Learning to code in public. Building one project through six stages, from static site to AI integration. Documenting the entire journey in real time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstwssts/mstwssts.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mstwssts/mstwssts.github.io/issues"
+  },
+  "homepage": "https://github.com/mstwssts/mstwssts.github.io#readme"
+}
