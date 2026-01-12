@@ -1,80 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marvin Sierra - Digital Solutions Developer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  
-  <main>
-    <section  id="#home">
-      <header>
-        <h1>Hi My name is Marvin Sierra</h1>
-        <h3>Digital Solutions Developer</h3>
-        <h3>Understanding Beats Generating</h3>
-      </header>
-      <p>In an AI-driven world, I build maintainable solutions that non-technical teams can trust, debug, and actually understand.</p>
-      <div>
-        <button>About Me</button>
-        <button>Lets Talk</button>
-        <button>Resume</button>
-      </div>
-      
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvin Sierra - Digital Solutions Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    <section id="about">
-      <h1>About Me</h1>
-      <p>My Story</p>
-      <h2>What do I do</h2>
-      <p>Description....</p>
-    </section>
-
-    <section id="blog">
-      
-    </section>
-
-    <section id="contact">
-      <h1></h1>
-      <p>Fill the form or drop an email!</p>
-
-      <form>
-        <input type="text" name="name" id="name">
-        <input type="email" name="email" id="email">
-        <input type="text" name="message" id="message">
-        <button type="button" onclick="alert('Hello World')">Send message</button>
-      </form>
-      
-      <h2>Find Me Online</h2>
-      <ul>
-        <li><a>GitHub</a></li>
-        <li><a>LinkedIn</a></li>
-        <li><a>Instagram</a></li>
+  <body>
+    
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </section>
+    </nav>
 
-    <br>
-    <section id="closing-statements">
-      <div>
-        <p>Maade with Human 💗</p>
-        <p>🍵 Powered by Caffeine</p>
-        <p>Best viewed with Human Eyes</p>
-      </div>
-    </section>
-  </main>
-  <br>
-  <footer id="footer">
-    <p>© 2026 Marvin Sierra</p>
-    <a href="#home">Back to Top</a>
-  </footer>
-</body>
+    <main>
+      
+      <section id="home" class="section hero">
+        <header class="hero-header">
+          <h1 class="hero-title">Hi, my name is Marvin Sierra</h1>
+          <h3 class="hero-subtitle">Digital Solutions Developer</h3>
+          <h3 class="hero-tagline">Understanding Beats Generating</h3>
+        </header>
+
+        <p class="hero-description">
+          In an AI-driven world, I build maintainable solutions that
+          non-technical teams can trust, debug, and actually understand.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn">About Me</button>
+          <button class="btn">Let's Talk</button>
+          <button class="btn">Resume</button>
+        </div>
+      </section>
+
+      
+      <section id="about" class="section about">
+        <h1>About Me</h1>
+        <p class="section-intro">My Story</p>
+
+        <h2>What do I do?</h2>
+        <p>Description....</p>
+      </section>
+
+      
+      <section id="blog" class="section blog">
+        <h1>Blog</h1>
+        <p>Coming soon...</p>
+      </section>
+
+      
+      <section id="contact" class="section contact">
+        <h1>Contact</h1>
+        <p>Fill the form or drop an email!</p>
+
+        <form class="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message">
+Tell me something interesting...
+          </textarea>
+
+          <button type="button" class="btn">
+            Send message
+          </button>
+        </form>
+
+        <h2>Find Me Online</h2>
+        <ul class="social-links">
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </section>
+
+      <section id="closing-statements" class="section closing">
+        <div class="closing-text">
+          <p>Made with Human </p>
+          <p>Powered by Caffeine</p>
+          <p>Best viewed with Human Eyes</p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <p>© 2026 Marvin Sierra</p>
+      <a href="#home">Back to Top</a>
+    </footer>
+  </body>
 </html>
